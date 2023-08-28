@@ -10,7 +10,7 @@ export default {
   output: {
     file: 'dist/print.js', 
     format: 'umd', 
-    name: 'print.js'
+    name: 'print-dom-js'
   },
   plugins: [
     resolve(), 
@@ -27,5 +27,4 @@ export default {
       contentBase: 'dist'
     })
   ],
-   external: ['lib']
 };

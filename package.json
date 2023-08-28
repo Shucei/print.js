@@ -1,6 +1,6 @@
 {
   "name": "print-dom-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "一个用于Web的打印插件，它的主要功能是将指定的 DOM 元素内容打印出来",
   "main": "dist/print.js", 
   "scripts": {

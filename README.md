@@ -1,8 +1,8 @@
-# print.js
+# print-dom-js
 
 <div align="center">
 
-<h1 align="center">print.js</h1>
+<h1 align="center">print-dom-js</h1>
 
 一个用于Web的打印插件，它的主要功能是将指定的 DOM 元素内容打印出来
 
@@ -16,13 +16,13 @@
 npm 安装：
 
 ```bash
-npm i print.js --save
+npm i print-dom-js --save
 ```
 
 yarn 安装：
 
 ```bash
-yarn add print.js --save
+yarn add print-dom-js --save
 ```
 
 ## 开始使用
@@ -41,7 +41,7 @@ yarn add print.js --save
 
 <script setup lang="ts">
   import { reactive, ref, nextTick } from "vue";
-  import Print from "./plugins/index.js";
+  import Print from "print-dom-js";
   let pr = ref(null);
   nextTick(() => {
   pr.value = new Print({dom:box.value, options:[".noPrints"],callback:(value)=>{
